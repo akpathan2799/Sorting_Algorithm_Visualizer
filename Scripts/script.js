@@ -4,11 +4,11 @@
 var generateBars = document.querySelector("#generate-bars");
 
 // Adding eventListner
-generateBars.addEventListener("click",() => generateArray(70));
+generateBars.addEventListener("click",() => generateArray(size));
 
 
 // Adding reload functionality so that whenever page reload the bars should generated
-window.addEventListener("load", generateArray(70));
+window.addEventListener("load", () => generateArray(size));
 
 // Adding generateArray function
 function generateArray(size) {
@@ -47,13 +47,13 @@ var sizeChanger = document.querySelector("#array-size");
 sizeChanger.addEventListener("change" , arraySizechanger);
 
 // for setting the size
-var size;
+var size = parseInt(sizeChanger.value);
 
 // adding array size changer functionality
 function arraySizechanger(){
 
   // Actual size of the range will be given to size
-  size = sizeChanger.value;
+  size = parseInt(sizeChanger.value);
 
   // size will be passed to generate array method
 generateArray(size);
