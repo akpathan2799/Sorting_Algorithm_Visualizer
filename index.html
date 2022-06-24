@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sorting Algorithm Visualizer</title>
+    <link rel="shortcut icon" href="./sort.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    
+        <section>
+
+            <!-- Heading -->
+            <div>
+                <h1>Sorting Algorithm Visualizer</h1>
+            </div>
+
+            <hr>
+
+
+
+            <!-- buttons area -->
+            <div id="button-area">
+
+                <div>
+                    <button id="generate-bars">Generate Array</button>
+                </div>
+
+                <div id="speed-size-ranger">
+
+                    <div>
+                        <span>
+                           Size<input type="range" id="array-size" min="5" max="100" step="1" value="70">
+                        </span>
+                    </div>
+                    <div>
+                        <span>
+                           Speed<input type="range" id="speed-range" min="10" max="300" stepdown="10" value="60">
+                        </span>
+                    </div>
+                
+                    
+
+                </div>
+
+                <div id="sort-button-area">
+                    <button id="button-sort">Bubble Sort</button>
+                    <button id="insertion-sort">Insertion Sort</button>
+                    <button id="selection-sort">Selection Sort</button>
+                    <button id="merge-sort">Merge Sort</button>
+                </div>
+
+            </div>
+
+
+            <!-- bars area -->
+
+            <div id="bar-area">
+
+            
+                
+
+            </div>
+
+
+
+
+
+            <!-- Adding javascript files -->
+            <script src="./Scripts/script.js"></script>
+            <script src="./Scripts/bubbleSort.js"></script>
+            <script src="./Scripts/selectionSort.js"></script>
+            <script src="./Scripts/insertionSort.js"></script>
+            <script src="./Scripts/mergeSort.js"></script>
+        </section>
+    
+
+    
+    
+</body>
+</html>

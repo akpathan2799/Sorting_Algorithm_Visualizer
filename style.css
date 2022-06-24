@@ -1,0 +1,100 @@
+/* Adding styles to body */
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #023047;
+}
+
+
+/* adding styles to heading */
+h1{
+    color: #FFB703;
+    text-align: center;
+    font-size: xx-large;
+    font-weight: bolder;
+
+}
+
+hr{
+    border-style: none ;
+    border-top: 3px solid #FFB703;
+    width: 65%;
+}
+
+
+/* Adding style to button */
+#button-area{
+
+     display: flex;
+     justify-content: space-around;
+     flex-wrap: wrap;
+     margin-top: 1.5rem;
+
+}
+
+#sort-button-area{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap ;
+}
+
+button{
+    padding: 10px 30px;
+    font: 700;
+    font-size: large;
+    font-style: normal;
+    letter-spacing: 1px;
+    color: #FFB703;
+    background-color: #023047;
+    border-color: #FFB703;
+    border-radius: 10px;
+    margin: 0 0.3rem;
+    
+}
+
+button:hover{
+
+    background-color: #ffb703;
+    color: #023047;
+    transition: ease-in-out 0.3s;
+}
+
+
+/* Adding style to bar area */
+
+#bar-area{
+    margin: auto;
+    margin-top: 2rem;
+    width: 70%;
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    /* transform: rotateX(180deg); */
+}
+
+.bars{
+    
+    width: 1.5%;
+    background-color: #8ECAE6;
+    margin: 0 1px;
+    border: 0.8px solid whitesmoke;
+}
+
+/* Adding style to range */
+
+#speed-size-ranger {
+    
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
+
+}
+
+span{
+
+    font-size: x-large;
+    font-style:normal;
+    letter-spacing: 1px;
+    color: #FFB703;
+    
+}
